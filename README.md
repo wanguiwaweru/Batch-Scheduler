@@ -90,6 +90,15 @@ python run_scheduler.py
 - Add automated tests for scheduler logic, node filtering, and binding
 - Add monitoring and observability for job state, node utilization, and scheduling failures
 - Expose scheduling operations through a simple API endpoint for remote submission and status queries
+- Add a persistent job store (database) for schedules, job metadata, and execution history
+- Add transactional scheduling semantics to prevent double execution on restart
+- Add ad-hoc "Run Now" triggers for manual execution
+- Add leader election / single-scheduler failover for high availability
+- Add a task queue layer to decouple scheduling from execution
+- Add worker/worker pool support for stateless task execution
+- Add dead letter queue support for jobs that fail repeatedly
+- Add idempotency support for safe retries and duplicate execution
+- Add metrics for scheduling lag, queue depth, and node utilization
 
 
 
