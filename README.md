@@ -2,7 +2,7 @@
 This job scheduler is an implementation of a batch job scheduling system. It takes a list of jobs with their respective priorities and allocates them to available nodes in a cluster based on their resource requirements.
 
 
-Scheduler allocates jobs to available clusters based on their requirements such as GPU, CPU, and memory. It ensures that jobs are distributed efficiently across the nodes to optimize resource utilization and minimize job completion time. The scheduler also monitors the status of each node and can reallocate jobs if a node becomes overloaded or fails.
+Scheduler allocates jobs to available clusters based on their requirements such as CPU, and memory. It ensures that jobs are distributed efficiently across the nodes to optimize resource utilization and minimize job completion time. The scheduler also monitors the status of each node and can reallocate jobs if a node becomes overloaded or fails.
 
 # Scheduler Workflow
 ┌─────────────────────────────────┐
